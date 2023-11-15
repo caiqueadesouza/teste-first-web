@@ -31,11 +31,11 @@
  * Ajax
  
 
--- Criar Banco de Dados
+--- BANCO DE DADOS ---
+
 CREATE DATABASE IF NOT EXISTS `teste_first`;
 USE `teste_first`;
 
--- Criar estrutura da tabela usuários
 CREATE TABLE IF NOT EXISTS `usuarios` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `nome` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
