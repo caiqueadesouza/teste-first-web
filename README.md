@@ -31,7 +31,6 @@
  * Ajax
  
 
---- BANCO DE DADOS ---
 -- Criar Banco de Dados
 CREATE DATABASE IF NOT EXISTS `teste_first`;
 USE `teste_first`;
